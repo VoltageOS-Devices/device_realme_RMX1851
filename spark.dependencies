@@ -1,0 +1,18 @@
+[
+    {
+        "repository": "android_device_realme_sdm710-common",
+        "target_path": "device/realme/sdm710-common"
+    },
+    {
+        "repository": "android_kernel_realme_sdm710-common",
+        "target_path": "kernel/realme/sdm710-common"
+    },
+    {
+        "repository": "android_vendor_realme_sdm710-common",
+        "target_path": "vendor/realme/sdm710-common"
+    },
+    {
+        "repository": "android_vendor_realme_RMX1851",
+        "target_path": "vendor/realme/RMX1851"
+    }
+]
