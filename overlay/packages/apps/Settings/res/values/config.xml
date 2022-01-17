@@ -23,6 +23,6 @@
     <integer name="config_fingerprintSensorLocation">0</integer>
 
   <!-- About SparkOS -->
-    <string name="spark_maintainer">cyborg (cyborg2000)</string>
+    <string name="spark_maintainer">Sheikh Faisal</string>
 
 </resources>
