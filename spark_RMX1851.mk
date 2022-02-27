@@ -13,6 +13,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1851
 PRODUCT_NAME := spark_RMX1851
@@ -33,5 +36,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="RMX1851"
 
 # Gapps Build
-#WITH_GMS := true
+#WITH_GAPPS := true
 
