@@ -16,6 +16,9 @@ TARGET_GAPPS_ARCH := arm64
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Pixel Charging animation
+TARGET_USE_PIXEL_CHARGER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1851
 PRODUCT_NAME := blaze_RMX1851
