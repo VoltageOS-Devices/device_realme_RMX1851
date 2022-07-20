@@ -4,8 +4,8 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common SparkOS stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+# Inherit some common ProjectBlaze stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Inherit from RMX1851 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -18,7 +18,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1851
-PRODUCT_NAME := spark_RMX1851
+PRODUCT_NAME := blaze_RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 3 Pro
 PRODUCT_MANUFACTURER := Realme
