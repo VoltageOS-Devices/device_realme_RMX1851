@@ -22,8 +22,8 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 
-  <!-- About SparkOS -->
-    <string name="spark_maintainer">Sheikh Faisal</string>
+  <!-- About VoltageOS -->
+    <string name="voltage_maintainer">Cykeek & Shubham Singh</string>
 
 <!-- Battery health -->
     <string name="config_batteryChargeCycles">/sys/class/power_supply/battery/cycle_count</string>

@@ -4,8 +4,8 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common Projectcherish stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common Projectvoltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from RMX1851 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -21,7 +21,7 @@ TARGET_USE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1851
-PRODUCT_NAME := cherish_RMX1851
+PRODUCT_NAME := voltage_RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 3 Pro
 PRODUCT_MANUFACTURER := Realme
@@ -37,13 +37,3 @@ BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/rele
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1851" \
     TARGET_DEVICE="RMX1851"
-
-#Cherish Add-on
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Cykeek
-CHERISH_BUILD_TYPE := OFFICIAL
-
-#Gapps Build or Vanilla Build
-WITH_GMS := true
-#CHERISH_VANILLA := true
-
