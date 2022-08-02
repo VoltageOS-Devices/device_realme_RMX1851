@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_RMX1851.mk
+    $(LOCAL_DIR)/cherish_RMX1851.mk
